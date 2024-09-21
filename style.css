@@ -70,7 +70,10 @@ body {
   border-radius: 100px;
   background: linear-gradient(to top left, #220dc3, #8ba2e2);
   position: absolute;
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 5px 5px 30px rgba(42, 33, 33, 0.448);
+}
+.circle:hover {
+  box-shadow: 20px 20px 50px rgba(41, 33, 33, 0.662);
 }
 .c1 {
   width: 200px;
@@ -137,4 +140,7 @@ body {
   top: 0px;
   left: 700px;
   border-radius: 70px;
+}
+.circle .c1 .c2 .c3 .c4 .c5 .c6 .c7 .c8 .c9 .c10:hover {
+  box-shadow: 20px 20px 54px rgba(34, 34, 36, 0.418);
 }
